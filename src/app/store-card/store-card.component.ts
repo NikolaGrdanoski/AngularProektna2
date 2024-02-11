@@ -19,7 +19,7 @@ export class StoreCardComponent {
   indeks: number = -1;
 
   @Input()
-  predmet: Item | undefined;
+  predmet: Item = {} as Item;
 
   OnItemViewed() {
     console.log("Da");
